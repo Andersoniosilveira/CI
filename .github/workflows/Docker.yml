@@ -18,4 +18,4 @@ jobs:
     # Username used to log against the Docker registry
         username: kuruma2021
     # Password or personal access token used to log against the Docker registry
-        password: optional
+        password: ${{ secrets.SENHA_DOCKER_HUB }}
