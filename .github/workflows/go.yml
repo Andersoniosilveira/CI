@@ -15,8 +15,8 @@ jobs:
     runs-on: ${{ matrix.OS }}
     strategy:
       matrix:
-        OS: ['ubuntu-latest', 'ubuntu-18.04']
-        node_version: ['8', '10', '12']
+        OS: ['ubuntu-latest']
+        node_version: ['12']
     steps:
     - uses: actions/checkout@v3
 
